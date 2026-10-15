@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="fa">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/fonts/fonts.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Login</title>
+</head>
+<body>
+<main id="main">
+    <div class="semi-modal-layout">
+        <div class="o-page o-page--account-box">
+            <div class="c-account-box">
+                <a href="/" class="c-account-box__logo">Digikala.com</a>
+                <div class="c-account-box__headline">ورود به دیجی&zwnj;کالا</div>
+                <div class="c-account-box__content">
+                    <form class="c-form-account" method="post" id="loginForm" novalidate="novalidate">
+                        <div class="c-form-account__title">ایمیل یا شماره موبایل</div>
+                        <div class="c-form-account__row js-valid-row">
+                            <div class="c-form-account__col">
+                                <label class="c-ui-input c-ui-input--account-login">
+                                    <input class="c-ui-input__field c-ui-input__field--right-placeholder" type="text"
+                                           placeholder="ایمیل یا شماره موبایل خود را وارد نمایید" tabindex="1">
+                                </label>
+                            </div>
+                        </div>
+                        <div class="c-form-account__title c-form-account__title--inline">رمز عبور
+                            <a href="forgot.html"
+                               class="btn-link-spoiler c-form-account__link c-form-account__link--inline">رمز عبور خود
+                                را
+                                فراموش کرده&zwnj;ام</a>
+                        </div>
+                        <div class="c-form-account__row js-valid-row">
+                            <div class="c-form-account__col">
+                                <label class="c-ui-input c-ui-input--account-password">
+                                    <input class="c-ui-input__field c-ui-input__field--right-placeholder"
+                                           type="password" name="login[password]"
+                                           placeholder="رمز عبور خود را وارد نمایید" tabindex="2">
+                                </label>
+                            </div>
+                        </div>
+                        <div class="c-form-account__row c-form-account__row--submit">
+                            <div class="c-form-account__col">
+                                <button class="btn-login">ورود به دیجی کالا</button>
+                            </div>
+                        </div>
+                        <div class="c-form-account__agree js-valid-row">
+                            <label class="c-ui-checkbox c-ui-checkbox--primary">
+                                <input type="checkbox" value="1" id="accountAutoLogin"
+                                       checked="checked">
+                                <span class="c-ui-checkbox__check"></span>
+                            </label>
+                            <label for="accountAutoLogin">مرا به خاطر داشته باش</label>
+                        </div>
+                    </form>
+                </div>
+                <div class="c-account-box__footer is-highlighted">
+                    <span>کاربر جدید هستید؟</span>
+                    <a href="register.html" class="btn-link-spoiler">ثبت&zwnj;نام در دیجی&zwnj;کالا</a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</main>
+</body>
+<script src="js/jquery.js"></script>
+<script src="js/js.js"></script>
+</html>

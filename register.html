@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="fa">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/fonts/fonts.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Regisgter</title>
+</head>
+<body>
+<main id="main">
+    <div class="semi-modal-layout">
+        <section class="o-page o-page--account-box">
+            <div class="c-account-box">
+                <a href="/" class="c-account-box__logo">Digikala.com</a>
+                <div class="c-account-box__headline">ثبت&zwnj;نام در دیجی&zwnj;کالا</div>
+                <div class="c-account-box__content">
+                    <form class="c-form-account" method="post" id="registerForm" data-name="register" novalidate="novalidate">
+                        <input type="hidden" name="rc" >
+                        <input type="hidden" name="rd">
+                        <div class="c-message-light c-message-light--info">ثبت نام تنها با شماره تلفن همراه امکان پذیر است.</div>
+
+                        <div class="c-form-account__title">شماره موبایل</div>
+                        <div class="c-form-account__row js-valid-row">
+                            <div class="c-form-account__col">
+                                <label class="c-ui-input c-ui-input--account-login">
+                                    <input class="c-ui-input__field c-ui-input__field--right-placeholder" type="text" name="register[email_phone]" placeholder="شماره موبایل خود را وارد نمایید" value="">
+                                </label>
+                            </div>
+                        </div>
+                        <div class="c-form-account__title">کلمه عبور</div>
+                        <div class="c-form-account__row js-valid-row">
+                            <div class="c-form-account__col">
+                                <label class="c-ui-input c-ui-input--account-password">
+                                    <input class="c-ui-input__field c-ui-input__field--right-placeholder" type="password" name="register[password]" placeholder="کلمه عبور خود را وارد نمایید">
+                                </label>
+                            </div>
+                        </div>
+                        <div class="c-form-account__agree js-valid-row s3ws">
+                            <label class="c-ui-checkbox c-ui-checkbox--primary">
+                                <input type="checkbox" value="1" name="register[agreement]" id="accountAutoLogin" checked="checked">
+                                <span class="c-ui-checkbox__check"></span>
+                            </label>
+                            <label for="accountAutoLogin">
+                                <a class="btn-link-spoiler" title="حریم خصوصی">حریم خصوصی</a>
+                                <span>و</span>
+                                <a class="btn-link-spoiler" title="شرایط و قوانین">شرایط و قوانین</a>
+                                استفاده از سرویس های سایت دیجی&zwnj;کالا را مطالعه نموده و با کلیه موارد آن موافقم.
+                            </label>
+                        </div>
+
+
+                        <div class="c-form-account__row c-form-account__row--submit">
+                            <div class="c-form-account__col">
+                                <button class="btn-user-add">ثبت&zwnj;نام در دیجی&zwnj;کالا</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="c-account-box__footer">
+                    <span>قبلا در دیجی&zwnj;کالا ثبت&zwnj;نام کرده&zwnj;اید؟</span>
+                    <a  class="btn-link-spoiler">وارد شویــد</a>
+                </div>
+            </div>
+        </section>
+        <footer class="c-footer-light">
+            <div class="container">
+                <ul class="c-footer-light__links">
+                    <li><a >درباره دیجی&zwnj;کالا</a></li>
+                    <li><a >فرصت&zwnj;های شغلی</a></li>
+                    <li><a>تماس با ما</a></li>
+                    <li><a>همکاری با سازمان&zwnj;ها</a></li>
+                </ul>
+                <p class="c-footer-light__text">استفاده از مطالب فروشگاه اینترنتی دیجی&zwnj;کالا فقط برای مقاصد غیرتجاری و با ذکر منبع بلامانع است. کلیه حقوق این سایت متعلق به شرکت نوآوران فن آوازه (فروشگاه آنلاین دیجی&zwnj;کالا) می&zwnj;باشد.</p>
+                <p class="c-footer-light__copyright">Copyright © 2006 - 2020 Digikala.com</p>
+            </div>
+        </footer>
+    </div>
+</main>
+</body>
+<script src="js/jquery.js"></script>
+<script src="js/js.js"></script>
+</html>
